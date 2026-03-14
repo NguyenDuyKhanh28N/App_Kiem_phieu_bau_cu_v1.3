@@ -65,7 +65,7 @@ export default function App() {
               <h1 className="text-xl font-bold tracking-tight">Hệ thống Kiểm phiếu Nhanh</h1>
               <span className="text-sm font-medium text-indigo-300 sm:hidden">| NDK</span>
               <span className="hidden sm:inline-block text-lg font-medium text-indigo-200">
-                | Nguyễn Duy Khánh
+                | NDK
               </span>                         
             </div>
             
