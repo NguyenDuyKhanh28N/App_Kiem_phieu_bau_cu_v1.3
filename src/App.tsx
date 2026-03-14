@@ -63,10 +63,6 @@ export default function App() {
             <div className="flex items-center gap-3">
               <CheckSquare className="w-8 h-8 text-indigo-300" />
               <h1 className="text-xl font-bold tracking-tight">Hệ thống Kiểm phiếu Nhanh</h1>
-              <span className="text-sm font-medium text-indigo-300 sm:hidden">| NDK</span>
-              <span className="hidden sm:inline-block text-lg font-medium text-indigo-200">
-                | NDK
-              </span>                         
             </div>
             
             <nav className="flex space-x-1">
