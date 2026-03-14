@@ -56,14 +56,17 @@ export default function App() {
   const recentVotes = state.votes.filter(v => v.batchId === state.activeBatchId);
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
-      <header className="bg-indigo-900 text-white shadow-md">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-3">
-              <CheckSquare className="w-8 h-8 text-indigo-300" />
-              <h1 className="text-xl font-bold tracking-tight">Hệ thống Kiểm phiếu Nhanh</h1>
-            </div>
+          <div className="flex items-center gap-3">
+        <CheckSquare className="w-8 h-8 text-indigo-300" />
+        <h1 className="text-xl font-bold tracking-tight">Hệ thống Kiểm phiếu Nhanh</h1>
+        
+        {/* Thêm class 'hidden' để ẩn mặc định, 'sm:block' để hiện từ màn hình nhỏ trở lên */}
+        <div className="hidden sm:block h-6 w-px bg-indigo-500/50 mx-1"></div> 
+        
+        <h3 className="hidden sm:block text-lg font-medium text-indigo-200">
+          Nguyễn Duy Khánh
+        </h3>
+      </div>
             
             <nav className="flex space-x-1">
               <button
